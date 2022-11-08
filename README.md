@@ -1,5 +1,3 @@
-# Kafka example 
-
 # Technical stack :
 * Docker for containerize the application
 * spring for Apache Kafka

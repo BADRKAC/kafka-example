@@ -13,12 +13,16 @@ public class KafkaApplication {
 		SpringApplication.run(KafkaApplication.class, args);
 	}
 
-  	@Bean
+/*  	@Bean
 		CommandLineRunner commandLineRunner(KafkaTemplate<String,String> kafkaTemplate){
 			return args-> {
 				for (int i = 0; i < 10_000; i++) {
-					kafkaTemplate.send("BadrTopic", "Hello Kafka from Morocco (: "+i);
+					kafkaTemplate.send("BadrTopic", "Hello Kafka from Morocco (: "+i)
+						.addCallback(
+							result -> System.out.println("Success publish"),
+							ex -> System.out.println("Error on publish" + ex)
+						);
 				}
 			};
-		}
+		}*/
 	}

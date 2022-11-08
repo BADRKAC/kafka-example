@@ -11,9 +11,11 @@ docker-compose up --build
 
 # Interact with the API's resources :
 
+```
 POST http://localhost:8080/api/v1/messages
 Content-Type: application/json
 
 {
  "message": "Api with Kafka"
 }
+```

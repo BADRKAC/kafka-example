@@ -1,7 +1,7 @@
 # Technical stack :
 * Docker for containerize the application
-* spring for Apache Kafka
-* spring Web
+* Spring for Apache Kafka
+* Spring Web
 * Java 17
 
 # Run the project

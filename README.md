@@ -4,7 +4,7 @@
 * Spring Web
 * Java 17
 
-# Run the project
+# Run zookeeper and kafka docker image
 ```
 docker-compose up --build
 ```
